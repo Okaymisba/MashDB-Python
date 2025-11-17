@@ -40,6 +40,9 @@ mashdb = "mashdb.cli:main"
 where = ["."]
 include = ["mashdb*"]
 
+[tool.setuptools.package-data]
+mashdb = ["bin/*"]
+
 [tool.black]
 line-length = 88
 target-version = ['py37']
